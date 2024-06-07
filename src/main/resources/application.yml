@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    url: jdbc:mysql://mysqldb.cbuqo0i6kuia.sa-east-1.rds.amazonaws.com:3306/users
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Welcome123
+
